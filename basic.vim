@@ -1,6 +1,9 @@
 set encoding=UTF-8
 
-colorscheme codedark
+"" 設定leader鍵
+let mapleader = ","
+
+colorscheme onedark
 
 "" 開啟語法高亮
 syntax on
@@ -24,16 +27,16 @@ set incsearch
 set mouse=a
 
 "" 括弧輸入
-:inoremap {{ {}<ESC>i
-:inoremap "" ""<ESC>i
-:inoremap '' ''<ESC>i
-:inoremap [[ []<ESC>i
-:inoremap (( ()<ESC>i
-:inoremap {<CR> {<CR>}<Esc>ko
-:inoremap "<CR> "<CR>"<Esc>ko
-:inoremap '<CR> '<CR>'<Esc>ko
-:inoremap [<CR> [<CR>]<Esc>ko
-:inoremap (<CR> (<CR>)<Esc>ko
+inoremap {{ {}<ESC>i
+inoremap "" ""<ESC>i
+inoremap '' ''<ESC>i
+inoremap [[ []<ESC>i
+inoremap (( ()<ESC>i
+inoremap {<CR> {<CR>}<Esc>ko
+inoremap "<CR> "<CR>"<Esc>ko
+inoremap '<CR> '<CR>'<Esc>ko
+inoremap [<CR> [<CR>]<Esc>ko
+inoremap (<CR> (<CR>)<Esc>ko
 
 "" 快速移動
 map <C-J> <C-W>j<C-W>_

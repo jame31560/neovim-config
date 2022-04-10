@@ -4,7 +4,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-" Use K to show documentation in preview window.
+" show documentation in preview window.
 nnoremap <silent> gh :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
@@ -20,7 +20,13 @@ endfunction
 " 匯入套件
 let g:coc_global_extensions = [
 \ 'coc-go',
-\ 'coc-explorer'
+\ 'coc-pyright',
+\ 'coc-tsserver',
+\ 'coc-html',
+\ 'coc-markdownlint',
+\ 'coc-css',
+\ 'coc-explorer',
+\ 'coc-prettier'
 \ ]
 
 
