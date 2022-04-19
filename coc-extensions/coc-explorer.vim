@@ -21,3 +21,4 @@ autocmd ColorScheme *
   \ hi CocExplorerNormalFloatBorder guifg=#414347 guibg=#272B34
   \ | hi CocExplorerNormalFloat guibg=#272B34
   \ | hi CocExplorerSelectUI guibg=blue
+

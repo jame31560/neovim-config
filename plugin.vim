@@ -1,4 +1,4 @@
-"" vim-pulg
+"" vim-plug
 call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 	" onedark
 	Plug 'joshdick/onedark.vim'
@@ -16,5 +16,7 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
 	Plug 'junegunn/fzf', {'dir': '~/.fzf','do': './install --all'}
 	Plug 'junegunn/fzf.vim' " needed for previews
 	Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
+
+	Plug 'APZelos/blamer.nvim'
 call plug#end()
 
