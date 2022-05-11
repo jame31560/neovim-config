@@ -30,17 +30,22 @@
     "bson",
     "bwmarrin",
     "conv",
+    "davecgh",
     "fatih",
     "frazrepo",
     "grpc",
     "junegunn",
     "mongodb",
     "neoclide",
+    "ozzo",
+    "panjf",
     "productid",
     "pyright",
     "shunfei",
     "signup",
     "tpope",
-    "woah"
+    "upgrader",
+    "woah",
+    "woahsup"
   ]
 }
