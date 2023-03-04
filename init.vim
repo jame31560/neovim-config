@@ -5,3 +5,5 @@ source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/coc-fzf.vim
 source $HOME/.config/nvim/rainbow.vim
 source $HOME/.config/nvim/blamer.vim
+source $HOME/.config/nvim/ctrlsf.vim
+source $HOME/.config/nvim/mako.vim

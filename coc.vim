@@ -19,7 +19,6 @@ endfunction
 
 " 匯入套件
 let g:coc_global_extensions = [
-\ 'coc-go',
 \ 'coc-git', 
 \ 'coc-pyright',
 \ 'coc-tsserver',
@@ -30,12 +29,16 @@ let g:coc_global_extensions = [
 \ 'coc-prettier',
 \ 'coc-diagnostic',
 \ 'coc-spell-checker',
-\ 'coc-tabnine'
+\ 'coc-tabnine',
+\ 'coc-json'
 \ ]
 
 " coc-spell-check
 vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
+
+vmap <leader>f <Plug>(coc-format-selected)
+nmap <leader>f <Plug>(coc-format-selected)
 
 
 " 匯入套件設定檔

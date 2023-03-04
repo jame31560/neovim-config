@@ -19,6 +19,7 @@ set autoindent
 set tabstop=4
 "" 自動縮排對齊寬度
 set shiftwidth=4
+set expandtab
 "" 關鍵字提示
 set incsearch
 "" 滑鼠選取
@@ -44,15 +45,6 @@ map <C-L> <C-W>l<C-W>_
 map <C-H> <C-W>h<C-W>_
 
 
-let g:go_highlight_functions = 1
-let g:go_highlight_function_calls = 1
-let g:go_highlight_types = 1
-let g:go_highlight_fields = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_interfaces = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_extra_types = 1
-let g:go_highlight_build_constraints = 1
-let g:go_highlight_generate_tags = 1
-let g:go_addtags_transform = "camelcase"
+let python_highlight_all = 1
+
+let g:NERDSpaceDelims=1
