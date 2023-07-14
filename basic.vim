@@ -48,3 +48,5 @@ map <C-H> <C-W>h<C-W>_
 let python_highlight_all = 1
 
 let g:NERDSpaceDelims=1
+
+let g:tagbar_ctags_bin='/opt/homebrew/bin/ctags'

@@ -39,6 +39,8 @@ nmap <leader>a <Plug>(coc-codeaction-selected)
 
 vmap <leader>f <Plug>(coc-format-selected)
 nmap <leader>f <Plug>(coc-format-selected)
+vmap <leader>tt :TagbarToggle<CR>
+nmap <leader>tt :TagbarToggle<CR>
 
 
 " 匯入套件設定檔

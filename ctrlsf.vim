@@ -31,3 +31,4 @@ let g:ctrlsf_backend = 'rg'
 let g:ctrlsf_mapping = { "popen": "<C-P>" }
 
 nmap <space>f :CocCommand python.sortImports<CR>:call CocAction('format')<CR>
+nmap <space>tt :TagbarToggle<CR>

@@ -22,5 +22,10 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'dyng/ctrlsf.vim'
     Plug 'chrisbra/Colorizer'
     Plug 'sophacles/vim-bundle-mako'
+    Plug 'mhinz/vim-startify'
+    " Plug 'nvim-telescope/telescope.nvim'
+    " Plug 'nvim-lua/plenary.nvim'
+    " Plug 'startup-nvim/startup.nvim'
+    Plug 'preservim/tagbar'
 call plug#end()
 
